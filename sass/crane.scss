@@ -29,5 +29,6 @@ $gutter-size: 12px;
   .col-#{$w} {
     width: calc-col-width($w);
     padding: $gutter-size;
+    float: left;
   }
 }
