@@ -1,0 +1,28 @@
+{
+  "name": "crane",
+  "version": "1.0.0",
+  "description": "Tiny CSS grid system",
+  "main": ".",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chickencoder/crane"
+  },
+  "keywords": [
+    "css",
+    "grid",
+    "responsive"
+  ],
+  "author": "Jesse Sibley <jesse_sibley@outlook.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chickencoder/crane/issues"
+  },
+  "homepage": "https://github.com/chickencoder/crane",
+  "devDependencies": {
+    "gulp-minify-css": "^1.2.0",
+    "gulp-sass": "^2.0.3"
+  }
+}
