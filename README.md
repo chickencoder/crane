@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<link rel="stylesheet" href="dist/crane.css">
+<link rel="stylesheet" href="dist/readme.css">
+>>>>>>> d48d3ebeb3f3fbd05e6075973280c05bdc4f9fc7
 # Crane
 
 Crane is a tiny ( ...KB) grid system for lightweight use in small projects.
