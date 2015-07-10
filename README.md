@@ -16,14 +16,14 @@ Just link it...
 ```html
   <link rel="stylesheet" href="dist/crane.min.css">
 ```
-<style>
+<styles>
   [class*="col"] {
     font-family: 'Open Sans', sans-serif;
     background: #287D9E;
     color: white;
     border: 2px solid #359D9E;
   }
-</style>
+</styles>
 
 <link rel="stylesheet" href="./dist/crane.css">
 
