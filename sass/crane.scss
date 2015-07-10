@@ -1,0 +1,33 @@
+/**
+    Crane Grid
+
+    Tiny responsive CSS grid system.
+    Customizable, quick and clean.
+
+    @JesseTheSibley | chickencoder
+*/
+
+// Globals
+$grid-columns: 12;
+$gutter-size: 12px;
+
+// calc-col-width function
+@function calc-col-width($width) {
+  @return (100% / $grid-columns) * $width;
+}
+
+// Set all box-sizing
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  width: 100%;
+}
+
+@for $w from 1 through $grid-columns {
+  .col-#{$w} {
+    width: calc-col-width($w);
+    padding: $gutter-size;
+  }
+}
